@@ -1,0 +1,5 @@
+{
+  "buildCommand": "vite build --config vite.config.app.ts",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
